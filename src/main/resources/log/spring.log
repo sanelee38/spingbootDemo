@@ -1,0 +1,111 @@
+2021-08-12 10:22:20.224  INFO 16216 --- [main] com.hollysys.Application                 : Starting Application on lizhi186545 with PID 16216 (G:\workspace\code\projectdemo\target\classes started by lizhi186545 in G:\workspace\code\projectdemo)
+2021-08-12 10:22:20.232  INFO 16216 --- [main] com.hollysys.Application                 : The following profiles are active: dev
+2021-08-12 10:22:21.201  INFO 16216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2021-08-12 10:22:21.210  INFO 16216 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-12 10:22:21.211  INFO 16216 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-08-12 10:22:21.534  INFO 16216 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-12 10:22:21.534  INFO 16216 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1259 ms
+2021-08-12 10:22:21.972  INFO 16216 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-12 10:22:22.205  INFO 16216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2021-08-12 10:22:22.215  INFO 16216 --- [main] com.hollysys.Application                 : Started Application in 2.322 seconds (JVM running for 3.862)
+2021-08-12 10:22:47.320  INFO 16216 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-12 10:24:31.519  INFO 15156 --- [main] com.hollysys.Application                 : Starting Application on lizhi186545 with PID 15156 (G:\workspace\code\projectdemo\target\classes started by lizhi186545 in G:\workspace\code\projectdemo)
+2021-08-12 10:24:31.523  INFO 15156 --- [main] com.hollysys.Application                 : The following profiles are active: dev
+2021-08-12 10:24:32.843  INFO 15156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2021-08-12 10:24:32.852  INFO 15156 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-12 10:24:32.852  INFO 15156 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-08-12 10:24:32.935  INFO 15156 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-12 10:24:32.935  INFO 15156 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1358 ms
+2021-08-12 10:24:33.368  INFO 15156 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-12 10:24:33.812  INFO 15156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2021-08-12 10:24:33.823  INFO 15156 --- [main] com.hollysys.Application                 : Started Application in 2.652 seconds (JVM running for 4.337)
+2021-08-12 10:28:04.286  INFO 15156 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-12 10:28:10.209  INFO 1528 --- [main] com.hollysys.Application                 : Starting Application on lizhi186545 with PID 1528 (G:\workspace\code\projectdemo\target\classes started by lizhi186545 in G:\workspace\code\projectdemo)
+2021-08-12 10:28:10.211  INFO 1528 --- [main] com.hollysys.Application                 : The following profiles are active: dev
+2021-08-12 10:28:11.199  INFO 1528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2021-08-12 10:28:11.208  INFO 1528 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-12 10:28:11.208  INFO 1528 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-08-12 10:28:11.286  INFO 1528 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-12 10:28:11.286  INFO 1528 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1034 ms
+2021-08-12 10:28:11.680  INFO 1528 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-12 10:28:11.915  INFO 1528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2021-08-12 10:28:11.925  INFO 1528 --- [main] com.hollysys.Application                 : Started Application in 2.05 seconds (JVM running for 2.682)
+2021-08-12 10:28:12.003  INFO 1528 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-12 10:28:35.692  INFO 6272 --- [main] com.hollysys.Application                 : Starting Application on lizhi186545 with PID 6272 (G:\workspace\code\projectdemo\target\classes started by lizhi186545 in G:\workspace\code\projectdemo)
+2021-08-12 10:28:35.695  INFO 6272 --- [main] com.hollysys.Application                 : The following profiles are active: dev
+2021-08-12 10:28:36.621  INFO 6272 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2021-08-12 10:28:36.630  INFO 6272 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-12 10:28:36.630  INFO 6272 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-08-12 10:28:36.701  INFO 6272 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-12 10:28:36.701  INFO 6272 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 964 ms
+2021-08-12 10:28:37.074  INFO 6272 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-12 10:28:37.300  INFO 6272 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2021-08-12 10:28:37.310  INFO 6272 --- [main] com.hollysys.Application                 : Started Application in 1.975 seconds (JVM running for 2.66)
+2021-08-12 10:32:46.207  INFO 6272 --- [http-nio-8083-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-12 10:32:46.207  INFO 6272 --- [http-nio-8083-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-12 10:32:46.212  INFO 6272 --- [http-nio-8083-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2021-08-12 10:32:46.245  INFO 6272 --- [http-nio-8083-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-12 10:32:46.726  INFO 6272 --- [http-nio-8083-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-12 10:39:11.817  INFO 6272 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-12 10:39:11.819  INFO 6272 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-12 10:39:11.851  INFO 6272 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-12 10:45:44.706  INFO 5804 --- [main] com.hollysys.Application                 : Starting Application on lizhi186545 with PID 5804 (G:\workspace\code\projectdemo\target\classes started by lizhi186545 in G:\workspace\code\projectdemo)
+2021-08-12 10:45:44.709  INFO 5804 --- [main] com.hollysys.Application                 : The following profiles are active: dev
+2021-08-12 10:45:46.234  INFO 5804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2021-08-12 10:45:46.243  INFO 5804 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-12 10:45:46.243  INFO 5804 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-08-12 10:45:46.315  INFO 5804 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-12 10:45:46.315  INFO 5804 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1544 ms
+2021-08-12 10:45:46.718  INFO 5804 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-12 10:45:46.973  INFO 5804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2021-08-12 10:45:46.984  INFO 5804 --- [main] com.hollysys.Application                 : Started Application in 2.897 seconds (JVM running for 3.673)
+2021-08-12 10:46:20.368  INFO 5804 --- [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-12 10:46:20.368  INFO 5804 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-12 10:46:20.373  INFO 5804 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2021-08-12 10:51:40.156  INFO 5804 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-12 10:51:46.433  INFO 10696 --- [main] com.hollysys.Application                 : Starting Application on lizhi186545 with PID 10696 (G:\workspace\code\projectdemo\target\classes started by lizhi186545 in G:\workspace\code\projectdemo)
+2021-08-12 10:51:46.436  INFO 10696 --- [main] com.hollysys.Application                 : The following profiles are active: dev
+2021-08-12 10:51:47.374  INFO 10696 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2021-08-12 10:51:47.382  INFO 10696 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-12 10:51:47.382  INFO 10696 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-08-12 10:51:47.452  INFO 10696 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-12 10:51:47.453  INFO 10696 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 978 ms
+2021-08-12 10:51:47.828  INFO 10696 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-12 10:51:48.066  INFO 10696 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2021-08-12 10:51:48.076  INFO 10696 --- [main] com.hollysys.Application                 : Started Application in 2.029 seconds (JVM running for 2.982)
+2021-08-12 10:51:51.349  INFO 10696 --- [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-12 10:51:51.350  INFO 10696 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-12 10:51:51.355  INFO 10696 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2021-08-12 10:53:13.324  INFO 10696 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-12 10:53:19.322  INFO 10632 --- [main] com.hollysys.Application                 : Starting Application on lizhi186545 with PID 10632 (G:\workspace\code\projectdemo\target\classes started by lizhi186545 in G:\workspace\code\projectdemo)
+2021-08-12 10:53:19.325  INFO 10632 --- [main] com.hollysys.Application                 : The following profiles are active: dev
+2021-08-12 10:53:20.283  INFO 10632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2021-08-12 10:53:20.291  INFO 10632 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-12 10:53:20.291  INFO 10632 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-08-12 10:53:20.362  INFO 10632 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-12 10:53:20.362  INFO 10632 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 995 ms
+2021-08-12 10:53:20.744  INFO 10632 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-12 10:53:20.976  INFO 10632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2021-08-12 10:53:20.986  INFO 10632 --- [main] com.hollysys.Application                 : Started Application in 2.033 seconds (JVM running for 2.768)
+2021-08-12 10:53:23.092  INFO 10632 --- [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-12 10:53:23.092  INFO 10632 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-12 10:53:23.099  INFO 10632 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2021-08-12 11:04:36.794  INFO 10632 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-12 16:03:23.962  INFO 15904 --- [main] com.hollysys.Application                 : Starting Application on lizhi186545 with PID 15904 (G:\workspace\code\projectdemo\target\classes started by lizhi186545 in G:\workspace\code\projectdemo)
+2021-08-12 16:03:23.964  INFO 15904 --- [main] com.hollysys.Application                 : The following profiles are active: dev
+2021-08-12 16:03:25.193  INFO 15904 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2021-08-12 16:03:25.201  INFO 15904 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-12 16:03:25.201  INFO 15904 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-08-12 16:03:25.273  INFO 15904 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-12 16:03:25.274  INFO 15904 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1266 ms
+2021-08-12 16:03:25.760  INFO 15904 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-12 16:03:26.026  INFO 15904 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2021-08-12 16:03:26.036  INFO 15904 --- [main] com.hollysys.Application                 : Started Application in 2.506 seconds (JVM running for 3.172)
+2021-08-12 16:07:18.357  INFO 15904 --- [http-nio-8083-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-12 16:07:18.358  INFO 15904 --- [http-nio-8083-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-12 16:07:18.363  INFO 15904 --- [http-nio-8083-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2021-08-12 16:09:39.496  INFO 15904 --- [http-nio-8083-exec-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-12 16:09:39.917  INFO 15904 --- [http-nio-8083-exec-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-12 16:54:14.244  INFO 15904 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-12 16:54:14.245  INFO 15904 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-12 16:54:14.256  INFO 15904 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

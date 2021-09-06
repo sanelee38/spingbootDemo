@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-kafka-productor" />
+        <module name="springboot-kafka-consumer" />
+        <module name="projectdemo" />
+        <module name="demo-master" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot-kafka-producer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo-master" options="-parameters" />
+      <module name="projectdemo" options="-parameters" />
+      <module name="springboot-kafka-consumer" options="-parameters" />
+      <module name="springboot-kafka-producer" options="-parameters" />
+      <module name="springboot-kafka-productor" options="-parameters" />
+    </option>
+  </component>
+</project>
