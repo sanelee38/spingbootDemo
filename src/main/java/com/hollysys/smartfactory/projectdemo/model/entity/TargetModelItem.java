@@ -13,23 +13,28 @@ public class TargetModelItem implements Serializable {
     public TargetModelItem() {
     }
 
-    public TargetModelItem(String id, String groupId, String itemId) {
+    public TargetModelItem(Integer id, String groupId, String itemId) {
         this.id = id;
         this.groupId = groupId;
         this.itemId = itemId;
     }
 
-    private String id;
-
+    private Integer id;
+    /**
+     * 分组id
+     */
     private String groupId;
-
+    /**
+     * 指标id
+     */
     private String itemId;
 
-    public String getId() {
+
+    public Integer getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -52,7 +57,7 @@ public class TargetModelItem implements Serializable {
     @Override
     public String toString() {
         return "TargetModelItem{" +
-                "id='" + id + '\'' +
+                "id=" + id +
                 ", groupId='" + groupId + '\'' +
                 ", itemId='" + itemId + '\'' +
                 '}';

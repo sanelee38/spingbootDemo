@@ -32,7 +32,7 @@ public interface TargetItemDao {
      * @param id id
      * @return 行数
      */
-    int deleteById(String id);
+    int deleteById(Integer id);
 
     /**
      * 更新
@@ -47,5 +47,5 @@ public interface TargetItemDao {
      * @return TargetModelItem对象
      */
 
-    TargetModelItem selectById(String id);
+    TargetModelItem selectById(Integer id);
 }

@@ -7,7 +7,7 @@ public final class ReturnInfo {
     public static final String SAVE_SUCCESS_MSG = "新增成功!";
     public static final String SAVE_FAIL_MSG = "新增失败!";
     public static final String QUERY_SUCCESS_MSG = "查询成功!";
-    public static final String QUERY_FAIL_MSG = "查询失败!";
+    public static final String QUERY_FAIL_MSG = "查询失败,没有该数据！";
     public static final String UPDATE_SUCCESS_MSG = "修改成功!";
     public static final String UPDATE_FAIL_MSG = "修改失败!";
     public static final String DEL_SUCCESS_MSG = "删除成功!";

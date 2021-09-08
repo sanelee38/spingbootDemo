@@ -1,42 +1,47 @@
 package com.hollysys.smartfactory.projectdemo.controller;
 
-import com.hollysys.smartfactory.projectdemo.model.entity.UserEntity;
 import com.hollysys.smartfactory.projectdemo.util.RedisUtil;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
-import java.util.Date;
 
+/**
+ * @author sanelee
+ */
 @Slf4j
 @RequestMapping("/redis")
 @RestController
 public class RedisController {
 
-    private static int ExpireTime = 60; // redis中存储的过期时间60s
+    /**redis中存储的过期时间60s*/
+    private static int ExpireTime = 60;
 
     @Resource
     private RedisUtil redisUtil;
 
-    @RequestMapping("set")
+    @RequestMapping(value = "set",method = RequestMethod.POST)
     public boolean redisset(String key, String value){
-        UserEntity userEntity =new UserEntity();
-        userEntity.setId(Long.valueOf(1));
-        userEntity.setGuid(String.valueOf(1));
-        userEntity.setName("zhangsan");
-        userEntity.setAge(String.valueOf(20));
-        userEntity.setCreateTime(new Date());
-        log.info("传入的对象"+userEntity);
+        log.info("传入的键值对"+key+":"+value);
 
         //return redisUtil.set(key,userEntity,ExpireTime);
 
         return redisUtil.set(key,value);
     }
 
-    @RequestMapping("get")
-    public Object redisget(String key){
+    @GetMapping("get/{key}")
+    public Object redisget(@PathVariable String key){
         return redisUtil.get(key);
+    }
+
+    @RequestMapping(value = "hset",method = RequestMethod.POST)
+    public Object redisHset(String key,String item,String value){
+        return redisUtil.hset(key,item,value);
+    }
+
+    @RequestMapping("hget")
+    public Object redisHget(String item,String key){
+        return redisUtil.hget(key,item);
     }
 
     @RequestMapping("expire")

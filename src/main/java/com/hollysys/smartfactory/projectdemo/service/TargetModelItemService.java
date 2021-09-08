@@ -14,13 +14,13 @@ public interface TargetModelItemService {
 
     TargetModelItem insert(TargetModelItem modelItem);
 
-    boolean checkId(String id);
+    boolean checkId(Integer id);
 
     List<TargetModelItem> findAll();
 
-    boolean deleteById(String id);
+    boolean deleteById(Integer id);
 
     TargetModelItem update(TargetModelItem modelItem);
 
-    TargetModelItem selectById(String id);
+    TargetModelItem selectById(Integer id);
 }

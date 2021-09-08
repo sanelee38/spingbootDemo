@@ -48,7 +48,7 @@ public class IndexController extends BaseController {
     }
 
     @GetMapping("/query/{id}")
-    public ResultStatus selectById(@PathVariable String id) {
+    public ResultStatus selectById(@PathVariable Integer id) {
         TargetModelItem targetModelItem = targetModelItemService.selectById(id);
         if (targetModelItem != null) {
             return success(ReturnInfo.QUERY_SUCCESS_MSG, targetModelItem);
@@ -58,7 +58,7 @@ public class IndexController extends BaseController {
     }
 
     @GetMapping("/delete/{id}")
-    public ResultStatus delete(@PathVariable String id) {
+    public ResultStatus delete(@PathVariable Integer id) {
         boolean b = targetModelItemService.deleteById(id);
         if (!b) {
             return error(ReturnInfo.DEL_FAIL_MSG);
