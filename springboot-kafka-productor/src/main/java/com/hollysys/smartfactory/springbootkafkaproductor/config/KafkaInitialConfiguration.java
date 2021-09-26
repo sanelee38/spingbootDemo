@@ -15,6 +15,10 @@ public class KafkaInitialConfiguration {
         System.out.println("begin to init initialTopic........................");
         return new NewTopic("mytopic04",8, (short) 2 );
     }
+    @Bean
+    public NewTopic topic3(){
+        return new NewTopic("topic3",2, (short) 2 );
+    }
 
     // 如果要修改分区数，只需修改配置值重启项目即可
     /**修改分区数并不会导致数据的丢失，但是分区数只能增大不能减小*/

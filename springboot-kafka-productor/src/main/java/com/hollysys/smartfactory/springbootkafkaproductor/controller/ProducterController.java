@@ -20,20 +20,42 @@ public class ProducterController {
     @Autowired
     private KafkaTemplate<String,Object> kafkaTemplate;
 
-    @GetMapping("send")
+    @GetMapping("Asend")
     @ResponseBody
-    public boolean send(@RequestParam String message) {
+    public boolean Asend(@RequestParam String message) {
         try {
-            ListenableFuture<SendResult<String, Object>> future = kafkaTemplate.send("mytopic04", message);
+            ListenableFuture<SendResult<String, Object>> future = kafkaTemplate.send("topic1", message);
             future.addCallback(new ListenableFutureCallback<SendResult<String, Object>>() {
                 @Override
                 public void onFailure(Throwable throwable) {
-                    System.err.println("mytopic04 - 生产者 发送消息失败：" + throwable.getMessage());
+                    System.err.println("topic1 - 生产者 发送消息失败：" + throwable.getMessage());
                 }
 
                 @Override
                 public void onSuccess(SendResult<String, Object> stringObjectSendResult) {
-                    System.out.println("mytopic04 - 生产者 发送消息成功：" + stringObjectSendResult.toString());
+                    System.out.println("topic1 - 生产者 发送消息成功：" + stringObjectSendResult.toString());
+                }
+            });
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return true;
+    }
+
+    @GetMapping("Bsend")
+    @ResponseBody
+    public boolean Bsend(@RequestParam String message) {
+        try {
+            ListenableFuture<SendResult<String, Object>> future = kafkaTemplate.send("topic3", message);
+            future.addCallback(new ListenableFutureCallback<SendResult<String, Object>>() {
+                @Override
+                public void onFailure(Throwable throwable) {
+                    System.err.println("topic3 - 生产者 发送消息失败：" + throwable.getMessage());
+                }
+
+                @Override
+                public void onSuccess(SendResult<String, Object> stringObjectSendResult) {
+                    System.out.println("topic3 - 生产者 发送消息成功：" + stringObjectSendResult.toString());
                 }
             });
         } catch (Exception e) {

@@ -6,11 +6,16 @@ import com.hollysys.smartfactory.projectdemo.model.entity.TargetModelItem;
 import com.hollysys.smartfactory.projectdemo.model.resp.ResultStatus;
 import com.hollysys.smartfactory.projectdemo.model.resp.ReturnInfo;
 import com.hollysys.smartfactory.projectdemo.service.TargetModelItemService;
+import org.apache.commons.io.FileUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.context.ApplicationContext;
 import org.springframework.web.bind.annotation.*;
 
+import java.io.*;
+import java.net.Inet4Address;
+import java.net.InetAddress;
+import java.net.UnknownHostException;
 import java.util.List;
 
 
@@ -45,6 +50,38 @@ public class IndexController extends BaseController {
         } else {
             return success(ReturnInfo.QUERY_SUCCESS_MSG, all);
         }
+    }
+    @GetMapping("/ip")
+    public ResultStatus ip() throws IOException {
+        File dest = new File("ip.txt");
+        //2、选择流
+        Reader reader = null;
+        String result =null;
+        try{
+            reader = new FileReader(dest);
+            //3、操作（写出）
+            char[] flush = new char[1024];//缓冲器
+            int len = -1;//接收长度
+            while ((len=reader.read(flush))!=-1){
+                //字符数组-->字符串
+                String str = new String(flush,0,len);
+                result = str;
+            }
+            System.out.println(result);
+        }catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }catch (IOException e) {
+            e.printStackTrace();
+        }finally {
+            //4、释放资源
+            if(null !=reader){
+                try {
+                    reader.close();
+                } catch (Exception e) {
+                }
+            }
+        }
+        return success(ReturnInfo.QUERY_SUCCESS_MSG, result);
     }
 
     @GetMapping("/query/{id}")

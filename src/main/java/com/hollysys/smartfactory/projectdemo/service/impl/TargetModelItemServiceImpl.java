@@ -129,7 +129,6 @@ public class TargetModelItemServiceImpl implements TargetModelItemService {
         if (hasKeyId){
             redisTemplate.delete(idKey);
         }
-
         this.targetItemDao.update(modelItem);
         return modelItem;
     }
